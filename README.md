@@ -56,10 +56,10 @@ The first model was price against sqft_living. The model was statistically signi
  This improved the previous models marginally and could only explain price variance by ~ 42%.
  This result underscored the importance of the ordinal encoded features such as grade and view.
  
- Our last model included all the top 9 features. This model was able to predict explain variance by ~62%.
+ Our last model included all the top 9 features. This model was able to explain houses price variance by ~62%.
 
 ## Regression Results
-As indicated above, our final modelw achieved R-squared of 62.39%. The best fit line from our final model is as below:
+As indicated above, our final model achieved R-squared of 62.39%. The best fit line from our final model is as below:
 
 ### *y = 498764.3 + (103300.58 X sqft_living) - (11052.18 X bathrooms) + (22215.05 X sqft_living15) - (10988.05 X bedrooms) + (89082.83 X lat) - (11809.75 X floors) - (16728.09 X sqft_lot) + (56165.34 X view) + (83155.89 X grade)*
 
